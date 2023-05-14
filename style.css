@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.message {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.restart {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
